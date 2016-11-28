@@ -1,4 +1,4 @@
-var Pfade = require('./index')
+var Pfade = require('pfade')
 var pfade = new Pfade(__dirname)
 
 var package = pfade.require('index.js')
