@@ -5,7 +5,9 @@ var package = pfade.require('index.js')
 console.log(package)
 
 
-var p = require('./index')
-var pl = new p()
 
-console.log(pl)
+var Pfade = require('pfade')
+var pfade = new Pfade()
+
+var handle = pfade.require('lib/handler.js')
+console.log(handle)
