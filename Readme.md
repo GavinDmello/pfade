@@ -2,6 +2,14 @@
 
 This is a basic route normalizing library. It helps in avoiding relative paths.
 
+## Installation
+
+```
+    npm install pfade
+```
+
+
+## Usage
 Instead of using the relative paths
 
 ```js
